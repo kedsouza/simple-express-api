@@ -36,7 +36,6 @@ jobs:
           containerAppName: kedsouza-nodejs
           resourceGroup: kedsouza-ca
           imageToBuild: kedsouzaacr.azurecr.io/kedsouza-nodejs:${{ github.sha }}
-          dockerfilePath: Dockerfile
 
      
 
